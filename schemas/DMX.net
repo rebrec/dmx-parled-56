@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  sam. 08 févr. 2014 13:51:47 CET
+# EESchema Netlist Version 1.1 created  sam. 08 févr. 2014 16:00:09 CET
 (
  ( /52F4AC91 C1 C1 CAPAPOL
   ( 1 xtl1 )
@@ -38,16 +38,6 @@
   ( 27 s5 )
   ( 28 ? )
  )
- ( /52F4B144 PIN_ARRAY_3X1 K1 CONN_3
-  ( 1 MISO )
-  ( 2 SCK )
-  ( 3 RST )
- )
- ( /52F4B147 PIN_ARRAY_3X1 K2 CONN_3
-  ( 1 GND )
-  ( 2 MOSI )
-  ( 3 VCC )
- )
  ( /52F49CC7 SIL-14 P1 CONN_14
   ( 1 ? )
   ( 2 PWM2 )
@@ -79,6 +69,14 @@
   ( 12 PWM1 )
   ( 13 s7 )
   ( 14 s8 )
+ )
+ ( /52F6421B pin_array_3x2 P3 CONN_3X2
+  ( 1 MISO )
+  ( 2 VCC )
+  ( 3 SCK )
+  ( 4 MOSI )
+  ( 5 RST )
+  ( 6 GND )
  )
  ( /52F4ACA0 R3 X1 CRYSTAL
   ( 1 xtl1 )

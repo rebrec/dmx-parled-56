@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sam. 08 févr. 2014 12:46:17 CET
+EESchema Schematic File Version 2  date sam. 08 févr. 2014 16:00:57 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -43,6 +43,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+NoConn ~ 7050 4150
+NoConn ~ 7050 4050
+NoConn ~ 7050 3950
+NoConn ~ 7050 3850
+NoConn ~ 7050 3200
+$Comp
+L CONN_3X2 P3
+U 1 1 52F6421B
+P 2650 3700
+F 0 "P3" H 2650 3950 50  0000 C CNN
+F 1 "CONN_3X2" V 2650 3750 40  0000 C CNN
+	1    2650 3700
+	1    0    0    -1  
+$EndComp
 Connection ~ 19750 5100
 Wire Wire Line
 	7400 3750 7050 3750
@@ -83,11 +97,11 @@ Connection ~ 5000 4050
 Wire Wire Line
 	5150 4050 4900 4050
 Wire Wire Line
-	3400 3200 3150 3200
+	3300 3650 3050 3650
 Wire Wire Line
-	1950 3300 2200 3300
+	2000 3750 2250 3750
 Wire Wire Line
-	1950 3100 2200 3100
+	2000 3550 2250 3550
 Connection ~ 5000 4150
 Wire Wire Line
 	5150 4150 5000 4150
@@ -111,11 +125,11 @@ Wire Wire Line
 Wire Wire Line
 	5000 4250 5000 4050
 Wire Wire Line
-	2200 3200 1950 3200
+	2250 3650 2000 3650
 Wire Wire Line
-	3150 3300 3400 3300
+	3050 3750 3300 3750
 Wire Wire Line
-	3150 3100 3400 3100
+	3050 3550 3300 3550
 Connection ~ 5000 1750
 Wire Wire Line
 	7050 2350 7400 2350
@@ -125,9 +139,9 @@ Connection ~ 5000 1850
 Wire Wire Line
 	7400 1950 7050 1950
 Wire Wire Line
-	5150 2150 5000 2150
+	5000 2150 5150 2150
 Wire Wire Line
-	5000 2150 5000 1750
+	5000 1750 5000 2150
 Wire Wire Line
 	2100 1400 2100 1250
 Wire Wire Line
@@ -216,36 +230,18 @@ Text GLabel 4900 1850 0    60   Input ~ 0
 VCC
 Text GLabel 4900 4050 0    60   Input ~ 0
 GND
-Text GLabel 3400 3100 2    60   Input ~ 0
+Text GLabel 3300 3550 2    60   Input ~ 0
 VCC
-Text GLabel 3400 3200 2    60   Input ~ 0
+Text GLabel 3300 3650 2    60   Input ~ 0
 MOSI
-Text GLabel 3400 3300 2    60   Input ~ 0
+Text GLabel 3300 3750 2    60   Input ~ 0
 GND
-Text GLabel 1950 3300 0    60   Input ~ 0
+Text GLabel 2000 3750 0    60   Input ~ 0
 RST
-Text GLabel 1950 3200 0    60   Input ~ 0
+Text GLabel 2000 3650 0    60   Input ~ 0
 SCK
-Text GLabel 1950 3100 0    60   Input ~ 0
+Text GLabel 2000 3550 0    60   Input ~ 0
 MISO
-$Comp
-L CONN_3 K2
-U 1 1 52F4B147
-P 2800 3200
-F 0 "K2" V 2750 3200 50  0000 C CNN
-F 1 "CONN_3" V 2850 3200 40  0000 C CNN
-	1    2800 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L CONN_3 K1
-U 1 1 52F4B144
-P 2550 3200
-F 0 "K1" V 2500 3200 50  0000 C CNN
-F 1 "CONN_3" V 2600 3200 40  0000 C CNN
-	1    2550 3200
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR01
 U 1 1 52F4AFA4
