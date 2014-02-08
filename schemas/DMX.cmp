@@ -1,0 +1,59 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = sam. 08 févr. 2014 12:47:43 CET
+
+BeginCmp
+TimeStamp = /52F4AC91;
+Reference = C1;
+ValeurCmp = CAPAPOL;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4AC83;
+Reference = C2;
+ValeurCmp = CAPAPOL;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F49061;
+Reference = IC1;
+ValeurCmp = ATMEGA328P-P;
+IdModule  = DIL28;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4B144;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4B147;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F49CC7;
+Reference = P1;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F49CD3;
+Reference = P2;
+ValeurCmp = CONN_14;
+IdModule  = SIL-14;
+EndCmp
+
+BeginCmp
+TimeStamp = /52F4ACA0;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = R3;
+EndCmp
+
+EndListe

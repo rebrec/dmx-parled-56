@@ -1,0 +1,602 @@
+PCBNEW-BOARD Version 1 date sam. 08 févr. 2014 13:00:18 CET
+
+# Created by Pcbnew(2012-apr-16-27)-stable
+
+$GENERAL
+encoding utf-8
+LayerCount 2
+Ly 1FFF8001
+EnabledLayers 1FFF8001
+Links 7
+NoConn 7
+Di -7221 -1494 7221 721
+Ndraw 0
+Ntrack 0
+Nzone 0
+BoardThickness 630
+Nmodule 7
+Nnets 20
+$EndGENERAL
+
+$SHEETDESCR
+Sheet A4 11700 8267
+Title ""
+Date "8 feb 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndSHEETDESCR
+
+$SETUP
+InternalUnit 0.000100 INCH
+Layers 2
+Layer[0] Dessous signal
+Layer[15] Dessus signal
+TrackWidth 80
+TrackClearence 100
+ZoneClearence 200
+TrackMinWidth 80
+DrawSegmWidth 150
+EdgeSegmWidth 150
+ViaSize 350
+ViaDrill 250
+ViaMinSize 350
+ViaMinDrill 200
+MicroViaSize 200
+MicroViaDrill 50
+MicroViasAllowed 0
+MicroViaMinSize 200
+MicroViaMinDrill 50
+TextPcbWidth 120
+TextPcbSize 600 800
+EdgeModWidth 150
+TextModSize 600 600
+TextModWidth 120
+PadSize 600 600
+PadDrill 320
+Pad2MaskClearance 100
+AuxiliaryAxisOrg 0 0
+PcbPlotParams (pcbplotparams (layerselection 3178497) (usegerberextensions true) (excludeedgelayer true) (linewidth 60) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 0) (pscolor true) (psnegative false) (psa4output false) (plotreference true) (plotvalue true) (plotothertext true) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk false) (outputformat 1) (mirror false) (drillshape 1) (scaleselection 1) (outputdirectory ""))
+$EndSETUP
+
+$EQUIPOT
+Na 0 ""
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 1 "GND"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 2 "MISO"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 3 "MOSI"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 4 "PWM1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 5 "PWM2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 6 "RST"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 7 "RX"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 8 "SCK"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 9 "VCC"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 10 "s1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 11 "s2"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 12 "s3"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 13 "s4"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 14 "s5"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 15 "s6"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 16 "s7"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 17 "s8"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 18 "xtl1"
+St ~
+$EndEQUIPOT
+$EQUIPOT
+Na 19 "xtl2"
+St ~
+$EndEQUIPOT
+$NCLASS
+Name "Default"
+Desc "Ceci est la Netclass par défaut"
+Clearance 100
+TrackWidth 80
+ViaDia 350
+ViaDrill 250
+uViaDia 200
+uViaDrill 50
+AddNet ""
+AddNet "GND"
+AddNet "MISO"
+AddNet "MOSI"
+AddNet "PWM1"
+AddNet "PWM2"
+AddNet "RST"
+AddNet "RX"
+AddNet "SCK"
+AddNet "VCC"
+AddNet "s1"
+AddNet "s2"
+AddNet "s3"
+AddNet "s4"
+AddNet "s5"
+AddNet "s6"
+AddNet "s7"
+AddNet "s8"
+AddNet "xtl1"
+AddNet "xtl2"
+$EndNCLASS
+$MODULE SIL-14
+Po 0 0 0 15 00200000 52F619FA ~~
+Li SIL-14
+Cd Connecteur 14 pins
+Kw CONN DEV
+Sc 52F619FA
+AR /52F49CC7
+Op 0 0 0
+T0 -4000 -1000 681 428 0 107 N V 21 N "P1"
+T1 3000 -1000 600 400 0 100 N V 21 N "CONN_14"
+DS -7000 -500 7000 -500 120 21
+DS 7000 -500 7000 500 120 21
+DS 7000 500 -7000 500 120 21
+DS -7000 500 -7000 -500 120 21
+$PAD
+Sh "1" R 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 5 "PWM2"
+Po -5500 0
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 3 "MOSI"
+Po -4500 0
+$EndPAD
+$PAD
+Sh "4" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3500 0
+$EndPAD
+$PAD
+Sh "5" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2500 0
+$EndPAD
+$PAD
+Sh "6" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1500 0
+$EndPAD
+$PAD
+Sh "7" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -500 0
+$EndPAD
+$PAD
+Sh "8" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 500 0
+$EndPAD
+$PAD
+Sh "9" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1500 0
+$EndPAD
+$PAD
+Sh "10" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2500 0
+$EndPAD
+$PAD
+Sh "11" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 15 "s6"
+Po 3500 0
+$EndPAD
+$PAD
+Sh "12" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4500 0
+$EndPAD
+$PAD
+Sh "13" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5500 0
+$EndPAD
+$PAD
+Sh "14" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6500 0
+$EndPAD
+$EndMODULE  SIL-14
+$MODULE SIL-14
+Po 0 0 0 15 00200000 52F619FC ~~
+Li SIL-14
+Cd Connecteur 14 pins
+Kw CONN DEV
+Sc 52F619FC
+AR /52F49CD3
+Op 0 0 0
+T0 -4000 -1000 681 428 0 107 N V 21 N "P2"
+T1 3000 -1000 600 400 0 100 N V 21 N "CONN_14"
+DS -7000 -500 7000 -500 120 21
+DS 7000 -500 7000 500 120 21
+DS 7000 500 -7000 500 120 21
+DS -7000 500 -7000 -500 120 21
+$PAD
+Sh "1" R 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5500 0
+$EndPAD
+$PAD
+Sh "3" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -4500 0
+$EndPAD
+$PAD
+Sh "4" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 7 "RX"
+Po -3500 0
+$EndPAD
+$PAD
+Sh "5" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -2500 0
+$EndPAD
+$PAD
+Sh "6" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 9 "VCC"
+Po -1500 0
+$EndPAD
+$PAD
+Sh "7" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 10 "s1"
+Po -500 0
+$EndPAD
+$PAD
+Sh "8" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 11 "s2"
+Po 500 0
+$EndPAD
+$PAD
+Sh "9" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 12 "s3"
+Po 1500 0
+$EndPAD
+$PAD
+Sh "10" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 13 "s4"
+Po 2500 0
+$EndPAD
+$PAD
+Sh "11" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 14 "s5"
+Po 3500 0
+$EndPAD
+$PAD
+Sh "12" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 4 "PWM1"
+Po 4500 0
+$EndPAD
+$PAD
+Sh "13" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 16 "s7"
+Po 5500 0
+$EndPAD
+$PAD
+Sh "14" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 17 "s8"
+Po 6500 0
+$EndPAD
+$EndMODULE  SIL-14
+$MODULE R3
+Po 0 0 0 15 4E4C0E65 52F619FD ~~
+Li R3
+Cd Resitance 3 pas
+Kw R
+Sc 52F619FD
+AR /52F4ACA0
+Op 0 A 0
+T0 0 50 550 500 0 80 N I 21 N "X1"
+T1 0 50 550 500 0 80 N V 21 N "CRYSTAL"
+DS -1500 0 -1300 0 80 21
+DS 1500 0 1300 0 80 21
+DS 1300 0 1300 -400 80 21
+DS 1300 -400 -1300 -400 80 21
+DS -1300 -400 -1300 400 80 21
+DS -1300 400 1300 400 80 21
+DS 1300 400 1300 0 80 21
+DS -1300 -200 -1100 -400 80 21
+$PAD
+Sh "1" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 18 "xtl1"
+Po -1500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 19 "xtl2"
+Po 1500 0
+$EndPAD
+$SHAPE3D
+Na "discret/resistor.wrl"
+Sc 0.300000 0.300000 0.300000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  R3
+$MODULE PIN_ARRAY_3X1
+Po 0 0 0 15 4C1130E0 52F619FE ~~
+Li PIN_ARRAY_3X1
+Cd Connecteur 3 pins
+Kw CONN DEV
+Sc 52F619FE
+AR /52F4B144
+Op 0 0 0
+T0 100 -850 400 400 0 60 N V 21 N "K1"
+T1 0 -850 400 400 0 60 N I 21 N "CONN_3"
+DS -1500 500 -1500 -500 60 21
+DS -1500 -500 1500 -500 60 21
+DS 1500 -500 1500 500 60 21
+DS 1500 500 -1500 500 60 21
+DS -500 -500 -500 500 60 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 2 "MISO"
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 8 "SCK"
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 6 "RST"
+Po 1000 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_3X1
+$MODULE PIN_ARRAY_3X1
+Po 0 0 0 15 4C1130E0 52F61A00 ~~
+Li PIN_ARRAY_3X1
+Cd Connecteur 3 pins
+Kw CONN DEV
+Sc 52F61A00
+AR /52F4B147
+Op 0 0 0
+T0 100 -850 400 400 0 60 N V 21 N "K2"
+T1 0 -850 400 400 0 60 N I 21 N "CONN_3"
+DS -1500 500 -1500 -500 60 21
+DS -1500 -500 1500 -500 60 21
+DS 1500 -500 1500 500 60 21
+DS 1500 500 -1500 500 60 21
+DS -500 -500 -500 500 60 21
+$PAD
+Sh "1" R 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po -1000 0
+$EndPAD
+$PAD
+Sh "2" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 3 "MOSI"
+Po 0 0
+$EndPAD
+$PAD
+Sh "3" C 600 600 0 0 0
+Dr 400 0 0
+At STD N 00E0FFFF
+Ne 9 "VCC"
+Po 1000 0
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_3x1.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  PIN_ARRAY_3X1
+$MODULE C1
+Po 0 0 0 15 3F92C496 52F61A01 ~~
+Li C1
+Cd Condensateur e = 1 pas
+Kw C
+Sc 52F61A01
+AR /52F4AC91
+Op 0 0 0
+T0 100 -900 400 400 0 80 N V 21 N "C1"
+T1 0 -900 400 400 0 80 N I 21 N "CAPAPOL"
+DS -980 -500 1000 -500 120 21
+DS 1000 -500 1000 500 120 21
+DS 1000 500 -1000 500 120 21
+DS -1000 500 -1000 -500 120 21
+DS -1000 -250 -750 -500 120 21
+$PAD
+Sh "1" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 18 "xtl1"
+Po -500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 500 0
+$EndPAD
+$SHAPE3D
+Na "discret/capa_1_pas.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  C1
+$MODULE C1
+Po 0 0 0 15 3F92C496 52F61A03 ~~
+Li C1
+Cd Condensateur e = 1 pas
+Kw C
+Sc 52F61A03
+AR /52F4AC83
+Op 0 0 0
+T0 100 -900 400 400 0 80 N V 21 N "C2"
+T1 0 -900 400 400 0 80 N I 21 N "CAPAPOL"
+DS -980 -500 1000 -500 120 21
+DS 1000 -500 1000 500 120 21
+DS 1000 500 -1000 500 120 21
+DS -1000 500 -1000 -500 120 21
+DS -1000 -250 -750 -500 120 21
+$PAD
+Sh "1" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 19 "xtl2"
+Po -500 0
+$EndPAD
+$PAD
+Sh "2" C 550 550 0 0 0
+Dr 320 0 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 500 0
+$EndPAD
+$SHAPE3D
+Na "discret/capa_1_pas.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$EndMODULE  C1
+$TRACK
+$EndTRACK
+$ZONE
+$EndZONE
+$EndBOARD

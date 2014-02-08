@@ -1,0 +1,5 @@
+--Button bounce fix.  I had mentioned in the 'known issues' that sometimes the tact button addressing routine would not detect values correctly, this is apparently due to a mechanical quirk of these switches, in that they will sometimes 'bounce' back down for a fraction of a second after being released.  The code now checks to make sure the state is unchanged for half a second before doing anything about it, which eliminates the problem.  Credit to Ron C.
+--Fixed a bug in the break detection routine that could cause the read values to be off by one in cases where the break from the microcontroller was exactly 88uS.
+
+--many 
+

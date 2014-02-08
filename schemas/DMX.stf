@@ -1,0 +1,8 @@
+comp = "C1" module = "C1"
+comp = "C2" module = "C1"
+comp = "IC1" module = "DIL28"
+comp = "K1" module = "PIN_ARRAY_3X1"
+comp = "K2" module = "PIN_ARRAY_3X1"
+comp = "P1" module = "SIL-14"
+comp = "P2" module = "SIL-14"
+comp = "X1" module = "R3"
