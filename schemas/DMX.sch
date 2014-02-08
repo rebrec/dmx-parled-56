@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date ven. 07 févr. 2014 18:50:30 CET
+EESchema Schematic File Version 2  date sam. 08 févr. 2014 12:46:17 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,7 +35,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "7 feb 2014"
+Date "8 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -43,6 +43,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 19750 5100
 Wire Wire Line
 	7400 3750 7050 3750
 Wire Wire Line

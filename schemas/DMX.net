@@ -1,88 +1,88 @@
-# EESchema Netlist Version 1.1 created  sam. 08 févr. 2014 13:29:21 CET
+# EESchema Netlist Version 1.1 created  sam. 08 févr. 2014 13:51:47 CET
 (
- ( /52F4B147 $noname  K2 CONN_3 {Lib=CONN_3}
-  (    1 GND )
-  (    2 MOSI )
-  (    3 VCC )
+ ( /52F4AC91 C1 C1 CAPAPOL
+  ( 1 xtl1 )
+  ( 2 GND )
  )
- ( /52F4B144 $noname  K1 CONN_3 {Lib=CONN_3}
-  (    1 MISO )
-  (    2 SCK )
-  (    3 RST )
+ ( /52F4AC83 C1 C2 CAPAPOL
+  ( 1 xtl2 )
+  ( 2 GND )
  )
- ( /52F4ACA0 $noname  X1 CRYSTAL {Lib=CRYSTAL}
-  (    1 xtl1 )
-  (    2 xtl2 )
+ ( /52F49061 DIP-28__300 IC1 ATMEGA328P-P
+  ( 1 RST )
+  ( 2 RX )
+  ( 3 s6 )
+  ( 4 s7 )
+  ( 5 s8 )
+  ( 6 ? )
+  ( 7 VCC )
+  ( 8 GND )
+  ( 9 xtl1 )
+  ( 10 xtl2 )
+  ( 11 ? )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
+  ( 15 PWM1 )
+  ( 16 PWM2 )
+  ( 17 MOSI )
+  ( 18 MISO )
+  ( 19 SCK )
+  ( 20 VCC )
+  ( 21 ? )
+  ( 22 GND )
+  ( 23 s1 )
+  ( 24 s2 )
+  ( 25 s3 )
+  ( 26 s4 )
+  ( 27 s5 )
+  ( 28 ? )
  )
- ( /52F4AC91 $noname  C1 CAPAPOL {Lib=CAPAPOL}
-  (    1 xtl1 )
-  (    2 GND )
+ ( /52F4B144 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 MISO )
+  ( 2 SCK )
+  ( 3 RST )
  )
- ( /52F4AC83 $noname  C2 CAPAPOL {Lib=CAPAPOL}
-  (    1 xtl2 )
-  (    2 GND )
+ ( /52F4B147 PIN_ARRAY_3X1 K2 CONN_3
+  ( 1 GND )
+  ( 2 MOSI )
+  ( 3 VCC )
  )
- ( /52F49CD3 $noname  P2 CONN_14 {Lib=CONN_14}
-  (    1 ? )
-  (    2 ? )
-  (    3 ? )
-  (    4 RX )
-  (    5 GND )
-  (    6 VCC )
-  (    7 s1 )
-  (    8 s2 )
-  (    9 s3 )
-  (   10 s4 )
-  (   11 s5 )
-  (   12 PWM1 )
-  (   13 s7 )
-  (   14 s8 )
+ ( /52F49CC7 SIL-14 P1 CONN_14
+  ( 1 ? )
+  ( 2 PWM2 )
+  ( 3 MOSI )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+  ( 8 ? )
+  ( 9 ? )
+  ( 10 ? )
+  ( 11 s6 )
+  ( 12 ? )
+  ( 13 ? )
+  ( 14 ? )
  )
- ( /52F49CC7 $noname  P1 CONN_14 {Lib=CONN_14}
-  (    1 ? )
-  (    2 PWM2 )
-  (    3 MOSI )
-  (    4 ? )
-  (    5 ? )
-  (    6 ? )
-  (    7 ? )
-  (    8 ? )
-  (    9 ? )
-  (   10 ? )
-  (   11 s6 )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
+ ( /52F49CD3 SIL-14 P2 CONN_14
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 RX )
+  ( 5 GND )
+  ( 6 VCC )
+  ( 7 s1 )
+  ( 8 s2 )
+  ( 9 s3 )
+  ( 10 s4 )
+  ( 11 s5 )
+  ( 12 PWM1 )
+  ( 13 s7 )
+  ( 14 s8 )
  )
- ( /52F49061 DIL28  IC1 ATMEGA328P-P {Lib=ATMEGA328P-P}
-  (    1 RST )
-  (    2 RX )
-  (    3 s6 )
-  (    4 s7 )
-  (    5 s8 )
-  (    6 ? )
-  (    7 VCC )
-  (    8 GND )
-  (    9 xtl1 )
-  (   10 xtl2 )
-  (   11 ? )
-  (   12 ? )
-  (   13 ? )
-  (   14 ? )
-  (   15 PWM1 )
-  (   16 PWM2 )
-  (   17 MOSI )
-  (   18 MISO )
-  (   19 SCK )
-  (   20 VCC )
-  (   21 ? )
-  (   22 GND )
-  (   23 s1 )
-  (   24 s2 )
-  (   25 s3 )
-  (   26 s4 )
-  (   27 s5 )
-  (   28 ? )
+ ( /52F4ACA0 R3 X1 CRYSTAL
+  ( 1 xtl1 )
+  ( 2 xtl2 )
  )
 )
 *
@@ -101,72 +101,3 @@ $component IC1
 $endlist
 $endfootprintlist
 }
-{ Pin List by Nets
-Net 4 "xtl1" "xtl1"
- IC1 9
- X1 1
- C1 1
-Net 5 "RX" "RX"
- IC1 2
- P2 4
-Net 6 "s2" "s2"
- IC1 24
- P2 8
-Net 7 "s4" "s4"
- IC1 26
- P2 10
-Net 8 "PWM1" "PWM1"
- P2 12
- IC1 15
-Net 9 "s8" "s8"
- P2 14
- IC1 5
-Net 10 "MISO" "MISO"
- K1 1
- IC1 18
-Net 11 "SCK" "SCK"
- IC1 19
- K1 2
-Net 12 "RST" "RST"
- K1 3
- IC1 1
-Net 14 "xtl2" "xtl2"
- C2 1
- X1 2
- IC1 10
-Net 15 "VCC" "VCC"
- IC1 7
- IC1 20
- P2 6
- K2 3
-Net 22 "MOSI" "MOSI"
- K2 2
- P1 3
- IC1 17
-Net 34 "GND" "GND"
- IC1 8
- IC1 22
- K2 1
- P2 5
- C2 2
- C1 2
-Net 35 "s1" "s1"
- P2 7
- IC1 23
-Net 36 "s6" "s6"
- IC1 3
- P1 11
-Net 37 "PWM2" "PWM2"
- P1 2
- IC1 16
-Net 38 "s7" "s7"
- P2 13
- IC1 4
-Net 39 "s5" "s5"
- IC1 27
- P2 11
-Net 40 "s3" "s3"
- P2 9
- IC1 25
-}
-#End

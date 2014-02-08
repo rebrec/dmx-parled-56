@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = sam. 08 févr. 2014 12:47:43 CET
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = sam. 08 févr. 2014 13:51:47 CET
 
 BeginCmp
 TimeStamp = /52F4AC91;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /52F49061;
 Reference = IC1;
 ValeurCmp = ATMEGA328P-P;
-IdModule  = DIL28;
+IdModule  = DIP-28__300;
 EndCmp
 
 BeginCmp
