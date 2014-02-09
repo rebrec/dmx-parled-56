@@ -1,5 +1,9 @@
-# EESchema Netlist Version 1.1 created  sam. 08 févr. 2014 16:00:09 CET
+# EESchema Netlist Version 1.1 created  dim. 09 févr. 2014 23:20:46 CET
 (
+ ( /52F7FEDE R3 10k1 R
+  ( 1 RST )
+  ( 2 VCC )
+ )
  ( /52F4AC91 C1 C1 CAPAPOL
   ( 1 xtl1 )
   ( 2 GND )
@@ -11,9 +15,9 @@
  ( /52F49061 DIP-28__300 IC1 ATMEGA328P-P
   ( 1 RST )
   ( 2 RX )
-  ( 3 s6 )
-  ( 4 s7 )
-  ( 5 s8 )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
   ( 6 ? )
   ( 7 VCC )
   ( 8 GND )
@@ -23,25 +27,25 @@
   ( 12 ? )
   ( 13 ? )
   ( 14 ? )
-  ( 15 PWM1 )
-  ( 16 PWM2 )
+  ( 15 s8 )
+  ( 16 s7 )
   ( 17 MOSI )
   ( 18 MISO )
   ( 19 SCK )
   ( 20 VCC )
   ( 21 ? )
   ( 22 GND )
-  ( 23 s1 )
-  ( 24 s2 )
-  ( 25 s3 )
-  ( 26 s4 )
-  ( 27 s5 )
-  ( 28 ? )
+  ( 23 s4 )
+  ( 24 s3 )
+  ( 25 s2 )
+  ( 26 s1 )
+  ( 27 PWM2 )
+  ( 28 PWM1 )
  )
  ( /52F49CC7 SIL-14 P1 CONN_14
   ( 1 ? )
-  ( 2 PWM2 )
-  ( 3 MOSI )
+  ( 2 PWM1 )
+  ( 3 PWM2 )
   ( 4 ? )
   ( 5 ? )
   ( 6 ? )
@@ -49,7 +53,7 @@
   ( 8 ? )
   ( 9 ? )
   ( 10 ? )
-  ( 11 s6 )
+  ( 11 MISO )
   ( 12 ? )
   ( 13 ? )
   ( 14 ? )
@@ -65,8 +69,8 @@
   ( 8 s2 )
   ( 9 s3 )
   ( 10 s4 )
-  ( 11 s5 )
-  ( 12 PWM1 )
+  ( 11 SCK )
+  ( 12 MOSI )
   ( 13 s7 )
   ( 14 s8 )
  )
@@ -85,6 +89,13 @@
 )
 *
 { Allowed footprints by component:
+$component 10k1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
 $component C1
  CP*
  SM*
