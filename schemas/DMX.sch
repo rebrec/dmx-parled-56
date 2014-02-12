@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date lun. 10 févr. 2014 23:25:53 CET
+EESchema Schematic File Version 2  date mer. 12 févr. 2014 22:29:49 CET
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11700 8267
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "10 feb 2014"
+Date "12 feb 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -244,19 +244,19 @@ SCK
 Text GLabel 2000 3550 0    60   Input ~ 0
 MISO
 $Comp
-L GND #PWR01
+L GND #PWR2
 U 1 1 52F4AFA4
 P 5000 4250
-F 0 "#PWR01" H 5000 4250 30  0001 C CNN
+F 0 "#PWR2" H 5000 4250 30  0001 C CNN
 F 1 "GND" H 5000 4180 30  0001 C CNN
 	1    5000 4250
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR02
+L VCC #PWR1
 U 1 1 52F4AF8C
 P 5000 1750
-F 0 "#PWR02" H 5000 1850 30  0001 C CNN
+F 0 "#PWR1" H 5000 1850 30  0001 C CNN
 F 1 "VCC" H 5000 1850 30  0000 C CNN
 	1    5000 1750
 	1    0    0    -1  
@@ -270,10 +270,10 @@ xtl2
 Text GLabel 8900 1450 1    60   Input ~ 0
 xtl1
 $Comp
-L GND #PWR03
+L GND #PWR3
 U 1 1 52F4ACCC
 P 9300 2450
-F 0 "#PWR03" H 9300 2450 30  0001 C CNN
+F 0 "#PWR3" H 9300 2450 30  0001 C CNN
 F 1 "GND" H 9300 2380 30  0001 C CNN
 	1    9300 2450
 	1    0    0    -1  
